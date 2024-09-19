@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: rgb(20, 41, 55);   
+}
+
+.image1{
+  height: auto;
+  display: block;
+  background-size: cover;
+  
+}
+.main-container{
+  background-image: url(images/arrow.jpg) ;
+  background-image: no-repeat;
+  background-size:cover ;
+  display: flex;
+  justify-content: center;
+  padding-top:13% ;
+  padding-bottom: 13%;
+  overflow-x:hidden;
+  
+  
+}
+.container{
+  /* border: 2px solid rgb(234, 230, 230); */
+  background-color: transparent;
+  backdrop-filter: blur(7px);
+}
+.image2{
+  background-image: url(images/expe.avif) ;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.red{
+  color: red;
+  display: block;
+  text-align: left;
+}
+.inputs-details{   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; 
+  gap: 30px;
+  border-radius: 50px;
+  margin-top: 40px;   
+}
+.manager{
+  margin-top: 20px;
+}
+.email{
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  padding-left: 7px;    
+}
+.password{
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  padding-left: 7px; 
+}
+.button{ 
+  height: 30px;
+  width:150px;
+  background: rgb(33, 159, 159);
+  border: none;
+  border-radius: 7px;
+  color: solid rgb(23, 18, 18);
+  font-size: large;
+  margin-left: 140px;
+  margin-top: 10px;      
+}
+
